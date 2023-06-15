@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(31, 163, 27);
+}
+.box_nature{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    top: 20px;
+    overflow: hidden;
+    background-color: white;
+
+}
+.image_nature{
+    position: absolute;
+    height: 176px;
+    width: auto;
+    top: 5%;
+    left: 2.5%;
+    border-radius: 10px;
+    filter: brightness(50%);
+    transition: all 0.3s ease-in;
+
+}
+.text_nature{
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    right: 30%;
+    bottom: 10%;
+    transition: all 0.3s ease-in;
+
+}
+.hover_nature{
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    transform: rotate(90deg);
+    font-family: 'Courier New', Courier, monospace;
+    color: silver;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+.color_nature{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(118, 185, 16);
+    border-radius: 50px;
+    right: 9.5%;
+    bottom: 20%;
+    transition: all 0.3s ease-in;
+    top: 70%;
+}
+.p_nature{
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    right: -10%;
+    overflow: hidden;
+    height: 83px;
+    width: 200px;
+    color: transparent;
+    transition: all 0.3s ease-in;
+}
+.box_nature:hover    .image_nature{
+    filter: brightness(100%);
+}
+.box_nature:hover    .text_nature{
+    bottom: 50%;
+}
+.box_nature:hover    .hover_nature{
+    top: 40%;
+    color: white;
+}
+.box_nature:hover    .color_nature{
+    height: 200px;
+    bottom: 0;
+    width: 400px;
+    top: 0;
+    right: 0;
+    border-radius: 0px;
+
+}
+.box_nature:hover    .p_nature{
+    color: white;
+}
