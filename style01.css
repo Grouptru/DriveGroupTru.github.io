@@ -1,6 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
- @media (width < 845px){
+ @media (width < 885px){
     .lableslide{
         position: fixed;
         z-index: 1;
