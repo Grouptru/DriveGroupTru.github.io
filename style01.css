@@ -183,7 +183,7 @@ input{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 3%;
+    bottom: 0.5%;
     z-index: 1;
     font-size: 15px;
     text-align: center;
